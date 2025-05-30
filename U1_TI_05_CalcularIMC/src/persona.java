@@ -42,7 +42,7 @@ public class persona {
     }
 
     public String devolverIMC() {
-        if (imc <= 18.5 && imc >= 24.9) {
+        if (imc >= 18.5 && imc <= 24.9) {
             return "Buen peso";
         } else if (imc >= 25.0 && imc <= 29.9) {
             return "Sobrepeso";

@@ -15,7 +15,7 @@ public class Main {
 
         double imc = usuario.calcularIMC();
         String devolver = usuario.devolverIMC();
+        System.out.println(devolver);
 
-        //comentario
     }
 }
